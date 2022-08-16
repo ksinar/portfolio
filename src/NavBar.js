@@ -21,6 +21,7 @@ import {
 } from '@chakra-ui/react';
 import { MoonIcon, SunIcon, HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { FaHome } from 'react-icons/fa';
+import Pdf from '../src/Technical_Resume.pdf';
 
 const NavLinks = () => (
   <>
@@ -68,7 +69,7 @@ const NavLinks = () => (
         textDecoration: 'none',
         bg: useColorModeValue('gray.200', 'gray.700'),
       }}
-      href={'#'}
+      href={Pdf}
     >
       Resume
     </Link>
